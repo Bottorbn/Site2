@@ -5,19 +5,21 @@ body {
 }
 
 header {
-  background: #ba2e29;
-  color: white;
+  background: #ba2e28;
+  color: black;
   padding: 20px;
   text-align: center;
 }
 
 main {
   padding: 20px;
+  background: #ba2e29;
 }
 
 button {
   padding: 20px 30px;
   border: none;
+  background: blue;
   cursor: pointer;
 }
 
