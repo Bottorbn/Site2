@@ -16,13 +16,32 @@ main {
   background: #ba2e29;
 }
 
-button {
-  padding: 20px 30px;
+.ace-button {
+  background: linear-gradient(135deg, #ff1a1a, #b30000);
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
   border: none;
-  background-color: #ff0000;
+  border-radius: 10px;
   cursor: pointer;
+  box-shadow:
+    inset 0 1px 3px rgba(255, 255, 255, 0.4),
+    0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: 0.25s ease-in-out;
 }
 
-button:hover {
-  opacity: 0.7;
+.ace-button:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow:
+    0 0 12px rgba(255, 0, 0, 0.9),
+    0 0 25px rgba(255, 0, 0, 0.7),
+    inset 0 0 8px rgba(255, 255, 255, 0.6);
+  background: linear-gradient(135deg, #ff3333, #cc0000);
+}
+
+.ace-button:active {
+  transform: scale(0.97);
+  box-shadow:
+    inset 0 0 10px rgba(0, 0, 0, 0.5);
 }
