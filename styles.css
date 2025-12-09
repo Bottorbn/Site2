@@ -19,7 +19,7 @@ main {
 button {
   padding: 20px 30px;
   border: none;
-  background: blue;
+  background-color: #ff0000;
   cursor: pointer;
 }
 
